@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"/>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
+
+    <title>FINAL_PROJECT</title>
+
+
+</head>
+<body id="home">
+  <!--Navbar-->
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+<img src="img/bird.png"style="width:100px;height:96px;">
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+        <li class="nav-item">
+        <a class="nav-link" href="index.html#learn">Service</a>
+      </li>
+      <li class="nav-item">
+        <a href="about.html" class="nav-link">About</a></li>
+      <!--
+      <li class="nav-item">
+        <a class="nav-link" href="#learn">Volunteer</a>
+      </li>
+    -->
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item cta"><a href="donate.html" class="btn">Donate</a></li>
+      
+      
+    </ul>
+      <form class="form-inline my-2 my-lg-0">
+      
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="register.html">Register</a></button>
+    </form>
+    <form class="form-inline my-4 my-lg-2">
+      
+      <button class="btn btn-outline-success my-4 my-sm-2" type="submit"><a href="login.html">Login  </a> </button>
+   
+    </form>
+  </div>
+
+</nav>
+<img src="img/services-4.jpg" class="d-block w-100" alt="..."style="height:400px;">
+<br>
+<h1><center>DONATE</center></h1>
+    <br>
+        <p style="font-size: 20px;">
+        Your thoughtful donation, of any amount or value can go a long way towards helping communities, families and individuals shape their lives in new and improved ways. From new cattle to new books, from improved sanitation to greater awareness, your donation is crucial to lives across Bangladesh.
+
+ <br><br>
+
+See below for different ways you can donate online, in person, as well as to our dedicated fundraising bank account.
+<div class=do>  
+<ol>
+  <p style="font-size:35px"><b>BKASH</b></p><br>
+  <div class="row">
+    <div class="col-7">
+    
+      <div class="card w-75">
+  <div class="card-body">
+    <h5 class="card-title">Please Fill Up the form below:</h5>
+    <form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">TrixID:</label>
+    <input type="text" class="form-control" id="formGroupTrix" placeholder="TrixID">
+  </div>
+  <div class="form-group">
+    <label for="formGroupAmount">Enter Donated Amount:</label>
+    <input type="text" class="form-control" id="formGroupAmount" placeholder="Amount">
+  </div>
+</form>
+  </div>
+</div>
+
+
+  <br>
+    <a href="#" class="btn btn-light">Submit</a>
+  </div>
+
+
+  
+  
+  <div class="col-lg-5">
+    
+  <img src="img/bkash.jpg" style="height:500px;width: 400px;">
+  </div>
+  
+</div>
+<p style="font-size:35px"><b>ROCKET</b></p><br>
+  <div class="row">
+    <div class="col-7">
+    
+      <div class="card w-75">
+  <div class="card-body">
+    <h5 class="card-title">Please Fill Up the form below:</h5>
+    <form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Bill No:</label>
+    <input type="text" class="form-control" id="formGroupTrix" placeholder="Id no">
+  </div>
+  <div class="form-group">
+    <label for="formGroupAmount">Enter Donated Amount:</label>
+    <input type="text" class="form-control" id="formGroupAmount" placeholder="Amount">
+  </div>
+</form>
+  </div>
+</div>
+
+
+  <br>
+    <a href="#" class="btn btn-light">Submit</a>
+  </div>
+
+
+  
+  
+  <div class="col-lg-5">
+    
+  <img src="img/rocket.jpg" style="height:500px;width: 400px;">
+  </div>
+  
+</div>
+
+</ol> 
+
+
+
+
+
+</div>
+
+<!--footer-->
+  <div class="footer">
+
+    <div>
+        <h2>Page's Location</h2>
+        <p id="path"></p>
+        <script type="text/javascript">
+            document.getElementById("path").innerHTML =
+                "Page path is: " + window.location.pathname;
+        </script>
+
+        <p id="loc"></p>
+        <script type="text/javascript">
+            document.getElementById("loc").innerHTML =
+                "The full URL of this page is:" + window.location.href;
+        </script>
+    </div>
+    
+    <div>
+        <h2>Last modified</h2>
+
+        <p id="demo"></p>
+        <script type="text/javascript">
+            var x = document.lastModified;
+            document.getElementById("demo").innerHTML = x;
+        </script>
+
+    </div>
+    
+    <center>&copy;Anita Mahmud Jhara</center>
+</div>
+
+</body>
+</html>
